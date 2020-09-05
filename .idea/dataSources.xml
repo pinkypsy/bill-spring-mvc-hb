@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="utility_service_bill@localhost" uuid="6bd5e67f-f953-4599-a1a0-f545176bc8e2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/utility_service_bill?useSSL=false</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT+3" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
