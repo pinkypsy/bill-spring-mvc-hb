@@ -12,7 +12,7 @@ public class TariffsTableService implements TableService{
     @Autowired
     private TablesDAO tablesDAO;
 //    private TablesDAO tablesDAO = new TablesDAOImpl();
-//    private TablesDAO tablesDAO = new TablesDAOImpl();
+
 
     @Transactional
     @Override
