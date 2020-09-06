@@ -3,13 +3,12 @@ package main.ua.alvin;
 import java.sql.*;
 
 public class Main {
-
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
             String user = "root";
             String password = "root";
             String URL =
-                    "jdbc:mysql://localhost:3306/utility_service_bill?useSSL=false&serverTimezone=GMT";
+                    "jdbc:mysql://localhost:3306/utility_service_bill?useSSL=false&serverTimezone=GMT&allowPublicKeyRetrieval=true";
 
             try(Connection connection = DriverManager.getConnection(URL,user,password);
                 Statement statement = connection.createStatement()){

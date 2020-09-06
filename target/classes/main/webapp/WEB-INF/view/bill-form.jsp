@@ -45,45 +45,45 @@
 
         </form:form>
 
-        <form:form action="saveIndicationsCounted"  modelAttribute="countedBillTable" method="POST">
+<%--        <form:form action="saveIndicationsCounted"  modelAttribute="countedBillTable" method="POST">--%>
 
-            <table>
-                <tbody>
+<%--            <table>--%>
+<%--                <tbody>--%>
 
-                <tr>
-                    <td><label>Cold water indications:</label></td>
-                    <td><form:input path="coldWater"/></td>
-                </tr>
+<%--                <tr>--%>
+<%--                    <td><label>Cold water indications:</label></td>--%>
+<%--                    <td><form:input path="coldWater"/></td>--%>
+<%--                </tr>--%>
 
-                <tr>
-                    <td><label></label></td>
-                    <td><input type="submit" value="Save" class="save"></td>
-                </tr>
+<%--                <tr>--%>
+<%--                    <td><label></label></td>--%>
+<%--                    <td><input type="submit" value="Save" class="save"></td>--%>
+<%--                </tr>--%>
 
-                </tbody>
-            </table>
+<%--                </tbody>--%>
+<%--            </table>--%>
 
-        </form:form>
+<%--        </form:form>--%>
 
-        <form:form action="saveFixedValues"  modelAttribute="fixedBillTable" method="POST">
+<%--        <form:form action="saveFixedValues"  modelAttribute="fixedBillTable" method="POST">--%>
 
-            <table>
-                <tbody>
+<%--            <table>--%>
+<%--                <tbody>--%>
 
-                <tr>
-                    <td><label>Garbage Removal Price:</label></td>
-                    <td><form:input path="garbageRemovalPrice"/></td>
-                </tr>
+<%--                <tr>--%>
+<%--                    <td><label>Garbage Removal Price:</label></td>--%>
+<%--                    <td><form:input path="garbageRemovalPrice"/></td>--%>
+<%--                </tr>--%>
 
-                <tr>
-                    <td><label></label></td>
-                    <td><input type="submit" value="Save" class="save"></td>
-                </tr>
+<%--                <tr>--%>
+<%--                    <td><label></label></td>--%>
+<%--                    <td><input type="submit" value="Save" class="save"></td>--%>
+<%--                </tr>--%>
 
-                </tbody>
-            </table>
+<%--                </tbody>--%>
+<%--            </table>--%>
 
-        </form:form>
+<%--        </form:form>--%>
 
     </div>
 </div>
